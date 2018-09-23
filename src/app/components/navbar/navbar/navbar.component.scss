@@ -1,0 +1,43 @@
+.grey-out {
+  color: grey !important;
+}
+.nav-icon {
+  margin-left: 5px !important;
+}
+.nav-items {
+  padding-right: 80px;
+}
+.navbar-item:hover {
+  color: #92A045 !important;
+  transition: color 0.2s ease-in-out;
+}
+
+.max-count-reached {
+  position:absolute;
+  float: right;
+  bottom: 0;
+}
+.navbar-menu {
+  position: absolute !important;
+  width: 100% !important;
+  background-color: #000;
+  padding-right: 150px;
+}
+.logo {
+  z-index: 10;
+}
+
+.navbar-menu a {
+  color: #fff;
+}
+.navbar-menu a:hover {
+  background-color: #000;
+}
+.basket-icon {
+  padding-left: 5px;
+}
+.is-active {
+  .hide-item {
+    visibility: hidden;
+  }
+}

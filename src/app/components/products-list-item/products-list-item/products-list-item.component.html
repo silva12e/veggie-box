@@ -1,0 +1,46 @@
+<div class="box">
+  <article class="media">
+    <div class="media-left">
+      <figure class="image is-128x128 product-img">
+        <img [src]="item.imgUrl"
+             alt="Image" class="responsive">
+      </figure>
+    </div>
+    <div class="media-content">
+      <div class="content">
+        <p>
+          <span class="title is-5">
+            {{item.name}}
+          </span>
+          <br><br>
+          <span class="description">
+            {{item.description}}
+          </span>
+        </p>
+      </div>
+      <nav class="level is-mobile counter-level">
+        <div class="level-left">
+          <a class="level-item"
+             (click)="decreaseCounter()">
+            <span class="icon is-small">
+              <i class="fas fa-minus circle"
+                 aria-hidden="true"> </i>
+            </span>
+          </a>
+          <span class="counter">
+            {{ counter }}
+          </span>
+          <a class="level-item"
+             (click)="increaseCounter()"
+             aria-label="reply">
+            <span class="icon is-small">
+              <i class="fas fa-plus circle"
+                 aria-hidden="true">
+              </i>
+            </span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </article>
+</div>

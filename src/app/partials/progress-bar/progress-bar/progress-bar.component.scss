@@ -1,0 +1,40 @@
+.progress-bar-wrapper {
+  margin-top:40px;
+  padding: 0 30px;
+  #myProgress {
+    width: 100%;
+    background: repeating-linear-gradient(
+        115deg,
+        #FFF,
+        #FFF 10px,
+        #929F45 10px,
+        #929F45 20px
+    );
+  }
+
+  #myBar {
+    width: 0;
+    height: 30px;
+    background-color: #929F45;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }
+
+  #counter {
+    float: right;
+    margin-right:20px;
+  }
+  .hide {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .show {
+    opacity: 100%;
+    transition: opacity 0.5s ease-in-out;
+  }
+}
+.count-title {
+  color: #92A045 !important;
+}
+

@@ -1,0 +1,13 @@
+.veggie-box-hero {
+  background: url("https://res.cloudinary.com/eesportfolio/image/upload/v1537235335/customize-hero-bg.jpg") !important;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 251px !important;
+  /*width: 100% !important;*/
+}
+.veggie-box-hero {
+  background-color: #F6F1E7 !important;
+}

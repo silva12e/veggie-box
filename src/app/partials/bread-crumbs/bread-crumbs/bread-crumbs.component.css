@@ -1,0 +1,11 @@
+.breadcrumb-item {
+ color: #C1C1C1 !important;
+  font-weight: bold;
+}
+.veggie-box-breadcrumb {
+  padding: 20px;
+}
+.breadcrumb-item:hover {
+  color: #000 !important;
+  transition: color 0.2s ease-in-out;
+}

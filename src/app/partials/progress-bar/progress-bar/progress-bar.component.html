@@ -1,0 +1,21 @@
+<app-header [counter]="counter"
+            [descendingCounter]="descendingCounter">
+</app-header>
+<div class="container progress-bar-wrapper">
+  <div class="columns">
+    <div class="column">
+      <div id="myProgress">
+        <div id="myBar">
+      <span id="counter"
+            [ngClass]="
+            {
+              'hide': counter === 0,
+              'show': counter > 0
+             }">
+        ({{ counter }}/6)
+      </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
